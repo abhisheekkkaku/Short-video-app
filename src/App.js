@@ -5,8 +5,7 @@ function App() {
     <div className="app">
       <div className="app__videos">
         <Video
-          url="https://res.cloudinary.com/dxkxvfo2o/video/upload/
-v1608169738/video1_cvrjfm.mp4"
+          url="tram.mp4"
           channel="abhishek"
           description="Check the pc and video"
           song="I am a Windows PC"
@@ -15,10 +14,9 @@ v1608169738/video1_cvrjfm.mp4"
           messages={90}
         />
         <Video
-          url="https://res.cloudinary.com/dxkxvfo2o/video/upload/
-v1608169739/video2_mecbdo.mp4"
+          url="Hotair.mp4"
           channel="thewebdev"
-          description="Tuesday morning editing on kdenlive in Windows"
+          description="Tuesday morning editing "
           song="Kdenlive is great"
           likes={445}
           shares={290}
