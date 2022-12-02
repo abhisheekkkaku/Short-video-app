@@ -25,7 +25,7 @@ const Video = ({
   };
 
   return (
-    <div className="video">
+    <div className="video ">
       <video
         src={url}
         className="video__player"
