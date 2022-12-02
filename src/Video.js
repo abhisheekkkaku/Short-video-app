@@ -25,17 +25,17 @@ const Video = ({
   };
 
   return (
-    <div className="video ">
-      <video
-        src={url}
-        className="video__player"
-        loop
-        ref={videoRef}
-        onClick={handleVideoPress}
-      ></video>
-      <VideoFooter channel={channel} description={description} song={song} />
-      <VideoSidebar likes={likes} shares={shares} messages={messages} />
-    </div>
+      <div className="video ">
+        <video
+          src={url}
+          className="video__player"
+          loop
+          ref={videoRef}
+          onClick={handleVideoPress}
+        ></video>
+        <VideoFooter channel={channel} description={description} song={song} />
+        <VideoSidebar likes={likes} shares={shares} messages={messages} />
+      </div>
   );
 };
 export default Video;

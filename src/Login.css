@@ -1,41 +1,3 @@
-html {
-  scroll-snap-type: y mandatory;
-}
-.app {
-  background-color: rgb(255, 255, 255);
-  display: inline-grid;
-  place-items: center;
-  
-}
-.app__videos {
-  position: absolute;
-  height: 440px;
-  border-radius: 20px;
-  overflow: scroll;
-  width: 100%;
-  max-width: 60vh;
-  scroll-snap-type: y mandatory;
-  right: 100px;
-  top: 85px;
-}
-.app__videos::-webkit-scrollbar {
-  display: none;
-}
-.app__videos {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
-.nv {
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-  font-size: 20px;
- 
-}
-
-.nv-1{
-   background-color: rgb(157, 157, 206);
-}
-
 /* Importing fonts from Google */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
@@ -52,44 +14,41 @@ body {
 }
 
 .wrapper {
-    height: 430px;
     max-width: 300px;
-    /* min-height: 70px; */
-    /* margin: 6px; */
-    margin-left: 120px;
+    min-height: 50px;
+    margin: 80px auto;
     padding: 40px 30px 30px 30px;
-    background-color: #ecf0f3;
+    background-color: #000000;
     border-radius: 15px;
-    box-shadow: 13px 13px 20px #afafaf, -5px -5px 20px rgb(167, 167, 167);
+    box-shadow: 13px 13px 20px #5b87b3, -13px -13px 20px rgb(206, 77, 77);
 }
 
 .logo {
-    padding-left: 85px;
-    width: 50px;
-   
+    width: 8px;
+    /* margin: auto; */
 }
 
 .logo img {
-    width: 80px;
-    height: 80px;
+    width: 10px;
+    height: 10px;
+    object-fit: cover;
     border-radius: 50%;
-    object-fit:contain;
     box-shadow: 0px 0px 3px #5f5f5f,
-        0px 0px 0px 5px #ffffff,
-        8px 8px 15px #ffffff,
+        0px 0px 0px 5px #ecf0f3,
+        8px 8px 15px #a7aaa7,
         -8px -8px 15px #fff;
 }
 
 .wrapper .name {
-    font-weight: 600;
-    font-size: 1.6rem;
-    letter-spacing: 1.px;
+    font-weight: 60;
+    font-size: 1.4rem;
+    letter-spacing: 1.3px;
     padding-left: 10px;
     color: #555;
 }
 
 .wrapper .form-field input {
-    width: 100%;
+    width: 10%;
     display: block;
     border: none;
     outline: none;
@@ -113,7 +72,7 @@ body {
 
 .wrapper .btn {
     box-shadow: none;
-    width: 100%;
+    width: 10%;
     height: 40px;
     background-color: #03A9F4;
     color: #fff;
@@ -142,10 +101,4 @@ body {
         margin: 30px 20px;
         padding: 40px 15px 15px 15px;
     }
-}
-
-
-
-.card2 {
-    margin-right: 10px;
 }
